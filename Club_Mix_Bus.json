@@ -1,0 +1,29 @@
+{
+  "name": "Club_Mix_Bus",
+  "chain": [
+    {
+      "LowShelfFilter": {
+        "cutoff_hz": 90.0,
+        "gain_db": 1.5
+      }
+    },
+    {
+      "Compressor": {
+        "threshold_db": -10.0,
+        "ratio": 1.6
+      }
+    },
+    {
+      "Reverb": {
+        "room_size": 0.08,
+        "damping": 0.2,
+        "wet_level": 0.04
+      }
+    },
+    {
+      "Limiter": {
+        "threshold_db": -0.9
+      }
+    }
+  ]
+}

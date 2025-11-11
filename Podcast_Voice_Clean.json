@@ -1,0 +1,27 @@
+{
+  "name": "Podcast_Voice_Clean",
+  "chain": [
+    {
+      "HighpassFilter": {
+        "cutoff_hz": 60.0
+      }
+    },
+    {
+      "Compressor": {
+        "threshold_db": -16.0,
+        "ratio": 2.2
+      }
+    },
+    {
+      "HighShelfFilter": {
+        "cutoff_hz": 7000.0,
+        "gain_db": 2.0
+      }
+    },
+    {
+      "Limiter": {
+        "threshold_db": -1.0
+      }
+    }
+  ]
+}
