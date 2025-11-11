@@ -1,0 +1,6 @@
+pedalboard==0.7.7
+mutagen==1.47.0
+librosa==0.11.0
+tqdm==4.66.4
+numpy
+demucs==4.0.0

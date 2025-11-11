@@ -1,0 +1,25 @@
+{
+  "chain": [
+    {
+      "HighpassFilter": {
+        "cutoff_hz": 30.0
+      }
+    },
+    {
+      "Compressor": {
+        "threshold_db": -18.0,
+        "ratio": 3.0
+      }
+    },
+    {
+      "Gain": {
+        "gain_db": 1.5
+      }
+    },
+    {
+      "Limiter": {
+        "threshold_db": -1.0
+      }
+    }
+  ]
+}
